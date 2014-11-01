@@ -6,8 +6,6 @@ This is experimental and the goal is to submit the boxer settings upstream as a 
 * Operation/Production mode (boxer settings) that are optimized far large deployments and long running containers
 * Developer mode (cAdvisor) for monitoring local deployments, rapid development and troubleshooting in DevOps environments
 
-![Boxer](gwos.png "Boxer")
-
 
 ## Quick Start: Running Boxer in a Docker Container
 
@@ -32,6 +30,7 @@ sudo docker run \
  Example to get all docker instances:
  http://localhost:8081/api/v1.2/docker
 
+# Notes from the original project from which Boxer was forked
 
 # cAdvisor
 
