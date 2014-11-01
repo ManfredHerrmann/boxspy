@@ -23,6 +23,7 @@ sudo docker run \
   --detach=true \
   --name=Boxer \
   gwos/boxer:latest
+  ```
 
  Please note that the container will run on port 8081 and therefore the UI is available through: http://localhost:8081
 
