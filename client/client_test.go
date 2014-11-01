@@ -24,8 +24,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/google/cadvisor/info"
-	itest "github.com/google/cadvisor/info/test"
+	"github.com/gwos/boxer/info"
+	itest "github.com/gwos/boxer/info/test"
 	"github.com/kr/pretty"
 )
 

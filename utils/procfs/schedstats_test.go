@@ -21,8 +21,8 @@ import (
 
 	"code.google.com/p/gomock/gomock"
 
-	"github.com/google/cadvisor/utils/fs"
-	"github.com/google/cadvisor/utils/fs/mockfs"
+	"github.com/gwos/boxer/utils/fs"
+	"github.com/gwos/boxer/utils/fs/mockfs"
 )
 
 func TestReadProcessSchedStat(t *testing.T) {

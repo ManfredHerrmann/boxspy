@@ -1,3 +1,36 @@
+# GroundWork Boxer
+
+This project is a fork of cAdvisor v 0.5.0 to provide a trimmed down version of a monitor container. The purpose is to provide a small footprint container to collect stats monitoring statistics for all containers running on the docker engine. The goal is to optimze the data collection and transfer (API based) Managment systems.
+
+This is experimental and the goal is to submit the boxer settings upstream as a set of runtime switches. We envision two modes:
+* Operation/Production mode (boxer settings) that are optimized far large deployments and long running containers
+* Developer mode (cAdvisor) for monitoring local deployments, rapid development and troubleshooting in DevOps environments
+
+![Boxer](gwos.png "Boxer")
+
+
+#### Quick Start: Running Boxer in a Docker Container
+
+To quickly tryout Boxer on your machine with Docker (version 1.3 or above), we have a Docker image that includes everything you need to get started. Simply run:
+
+```
+sudo docker run \
+  --volume=/:/rootfs:ro \
+  --volume=/var/run:/var/run:rw \
+  --volume=/sys:/sys:ro \
+  --volume=/var/lib/docker/:/var/lib/docker:ro \
+  --publish=8081:8080 \
+  --detach=true \
+  --name=Boxer \
+  gwos/boxer:latest
+
+ Please note that the container will run on port 8081 and therefore the UI is available through: http://localhost:8081
+
+ ## Remote REST API
+ Current version is v1.2
+ Example to get all docker instances:
+ http://localhost:8081/api/v1.2/docker
+
 # cAdvisor
 
 cAdvisor (Container Advisor) provides container users an understanding of the resource usage and performance characteristics of their running containers. It is a running daemon that collects, aggregates, processes, and exports information about running containers. Specifically, for each container it keeps resource isolation parameters, historical resource usage, histograms of complete historical resource usage and network statistics. This data is exported by container and machine-wide.
@@ -143,7 +176,7 @@ The actual object is the marshalled JSON of the `MachineInfo` struct found in [i
 There is an example Go client under [client/](client/) - you can use it on your own Go project by including it like this:
 
 ```go
-import "github.com/google/cadvisor/client"
+import "github.com/gwos/boxer/client"
 client, err = client.NewClient("http://192.168.59.103:8080/")
 mInfo, err := client.MachineInfo()
 ```

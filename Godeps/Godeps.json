@@ -1,5 +1,5 @@
 {
-	"ImportPath": "github.com/google/cadvisor",
+	"ImportPath": "github.com/gwos/boxer",
 	"GoVersion": "go1.3",
 	"Packages": [
 		"./..."

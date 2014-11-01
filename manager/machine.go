@@ -24,9 +24,9 @@ import (
 	"syscall"
 
 	dclient "github.com/fsouza/go-dockerclient"
-	"github.com/google/cadvisor/container/docker"
-	"github.com/google/cadvisor/fs"
-	"github.com/google/cadvisor/info"
+	"github.com/gwos/boxer/container/docker"
+	"github.com/gwos/boxer/fs"
+	"github.com/gwos/boxer/info"
 )
 
 var numCpuRegexp = regexp.MustCompile("processor\\t*: +[0-9]+")

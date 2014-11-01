@@ -14,7 +14,7 @@
 
 package storage
 
-import "github.com/google/cadvisor/info"
+import "github.com/gwos/boxer/info"
 
 type StorageDriver interface {
 	AddStats(ref info.ContainerReference, stats *info.ContainerStats) error

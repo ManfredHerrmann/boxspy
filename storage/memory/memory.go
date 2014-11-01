@@ -20,8 +20,8 @@ import (
 	"sync"
 
 	"github.com/golang/glog"
-	"github.com/google/cadvisor/info"
-	"github.com/google/cadvisor/storage"
+	"github.com/gwos/boxer/info"
+	"github.com/gwos/boxer/storage"
 )
 
 // containerStorage is used to store per-container information

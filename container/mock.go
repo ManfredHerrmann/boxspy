@@ -15,7 +15,7 @@
 package container
 
 import (
-	"github.com/google/cadvisor/info"
+	"github.com/gwos/boxer/info"
 	"github.com/stretchr/testify/mock"
 )
 

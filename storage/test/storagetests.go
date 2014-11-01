@@ -20,8 +20,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/google/cadvisor/info"
-	"github.com/google/cadvisor/storage"
+	"github.com/gwos/boxer/info"
+	"github.com/gwos/boxer/storage"
 )
 
 type TestStorageDriver interface {

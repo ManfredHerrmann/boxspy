@@ -3,6 +3,6 @@
 set -e
 set -x
 
-godep go build -a github.com/google/cadvisor
+godep go build -a github.com/gwos/boxer
 
-docker build -t google/cadvisor:canary .
+sudo docker build -t gwos/boxer:canary .

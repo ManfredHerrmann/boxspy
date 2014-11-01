@@ -28,11 +28,11 @@ import (
 	cgroup_fs "github.com/docker/libcontainer/cgroups/fs"
 	"github.com/docker/libcontainer/network"
 	"github.com/golang/glog"
-	"github.com/google/cadvisor/container"
-	"github.com/google/cadvisor/container/libcontainer"
-	"github.com/google/cadvisor/fs"
-	"github.com/google/cadvisor/info"
-	"github.com/google/cadvisor/utils"
+	"github.com/gwos/boxer/container"
+	"github.com/gwos/boxer/container/libcontainer"
+	"github.com/gwos/boxer/fs"
+	"github.com/gwos/boxer/info"
+	"github.com/gwos/boxer/utils"
 )
 
 type rawContainerHandler struct {

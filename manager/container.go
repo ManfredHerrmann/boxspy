@@ -22,9 +22,9 @@ import (
 
 	"github.com/docker/docker/pkg/units"
 	"github.com/golang/glog"
-	"github.com/google/cadvisor/container"
-	"github.com/google/cadvisor/info"
-	"github.com/google/cadvisor/storage"
+	"github.com/gwos/boxer/container"
+	"github.com/gwos/boxer/info"
+	"github.com/gwos/boxer/storage"
 )
 
 // Housekeeping interval.

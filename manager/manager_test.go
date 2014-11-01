@@ -21,10 +21,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/google/cadvisor/container"
-	"github.com/google/cadvisor/info"
-	itest "github.com/google/cadvisor/info/test"
-	stest "github.com/google/cadvisor/storage/test"
+	"github.com/gwos/boxer/container"
+	"github.com/gwos/boxer/info"
+	itest "github.com/gwos/boxer/info/test"
+	stest "github.com/gwos/boxer/storage/test"
 )
 
 func createManagerAndAddContainers(
