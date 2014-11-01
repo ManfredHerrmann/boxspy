@@ -9,7 +9,7 @@ This is experimental and the goal is to submit the boxer settings upstream as a 
 ![Boxer](gwos.png "Boxer")
 
 
-#### Quick Start: Running Boxer in a Docker Container
+## Quick Start: Running Boxer in a Docker Container
 
 To quickly tryout Boxer on your machine with Docker (version 1.3 or above), we have a Docker image that includes everything you need to get started. Simply run:
 
@@ -26,10 +26,11 @@ sudo docker run \
 
  Please note that the container will run on port 8081 and therefore the UI is available through: http://localhost:8081
 
- ## Remote REST API
+### Remote REST API
  Current version is v1.2
  Example to get all docker instances:
  http://localhost:8081/api/v1.2/docker
+
 
 # cAdvisor
 
