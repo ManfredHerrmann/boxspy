@@ -15,7 +15,7 @@
 package test
 
 import (
-	"github.com/gwos/boxer/info"
+	"github.com/gwos/bokzer/info"
 	"github.com/stretchr/testify/mock"
 )
 

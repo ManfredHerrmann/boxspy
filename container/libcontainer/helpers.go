@@ -21,7 +21,7 @@ import (
 	"github.com/docker/libcontainer/cgroups"
 	cgroupfs "github.com/docker/libcontainer/cgroups/fs"
 	"github.com/docker/libcontainer/network"
-	"github.com/gwos/boxer/info"
+	"github.com/gwos/bokzer/info"
 )
 
 // Get stats of the specified container

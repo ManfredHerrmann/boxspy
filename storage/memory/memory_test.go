@@ -17,9 +17,9 @@ package memory
 import (
 	"testing"
 
-	"github.com/gwos/boxer/info"
-	"github.com/gwos/boxer/storage"
-	"github.com/gwos/boxer/storage/test"
+	"github.com/gwos/bokzer/info"
+	"github.com/gwos/bokzer/storage"
+	"github.com/gwos/bokzer/storage/test"
 )
 
 type memoryTestStorageDriver struct {

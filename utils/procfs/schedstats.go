@@ -20,7 +20,7 @@ import (
 	"io"
 	"strconv"
 
-	"github.com/gwos/boxer/utils/fs"
+	"github.com/gwos/bokzer/utils/fs"
 )
 
 type ProcessSchedStat struct {

@@ -24,8 +24,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gwos/boxer/info"
-	itest "github.com/gwos/boxer/info/test"
+	"github.com/gwos/bokzer/info"
+	itest "github.com/gwos/bokzer/info/test"
 	"github.com/kr/pretty"
 )
 

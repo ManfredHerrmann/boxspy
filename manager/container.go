@@ -22,13 +22,13 @@ import (
 
 	"github.com/docker/docker/pkg/units"
 	"github.com/golang/glog"
-	"github.com/gwos/boxer/container"
-	"github.com/gwos/boxer/info"
-	"github.com/gwos/boxer/storage"
+	"github.com/gwos/bokzer/container"
+	"github.com/gwos/bokzer/info"
+	"github.com/gwos/bokzer/storage"
 )
 
 // Housekeeping interval.
-var HousekeepingInterval = flag.Duration("housekeeping_interval", 1*time.Second, "Interval between container housekeepings")
+var HousekeepingInterval = flag.Duration("housekeeping_interval", 60*time.Second, "Interval between container housekeepings")
 var maxHousekeepingInterval = flag.Duration("max_housekeeping_interval", 60*time.Second, "Largest interval to allow between container housekeepings")
 var allowDynamicHousekeeping = flag.Bool("allow_dynamic_housekeeping", true, "Whether to allow the housekeeping interval to be dynamic")
 

@@ -20,8 +20,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gwos/boxer/info"
-	"github.com/gwos/boxer/storage"
+	"github.com/gwos/bokzer/info"
+	"github.com/gwos/bokzer/storage"
 )
 
 type TestStorageDriver interface {

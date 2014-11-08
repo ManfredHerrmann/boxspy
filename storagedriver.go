@@ -21,11 +21,11 @@ import (
 	"time"
 
 	"github.com/golang/glog"
-	"github.com/gwos/boxer/manager"
-	"github.com/gwos/boxer/storage"
-	"github.com/gwos/boxer/storage/bigquery"
-	"github.com/gwos/boxer/storage/influxdb"
-	"github.com/gwos/boxer/storage/memory"
+	"github.com/gwos/bokzer/manager"
+	"github.com/gwos/bokzer/storage"
+	"github.com/gwos/bokzer/storage/bigquery"
+	"github.com/gwos/bokzer/storage/influxdb"
+	"github.com/gwos/bokzer/storage/memory"
 )
 
 var argSampleSize = flag.Int("samples", 1024, "number of samples we want to keep")

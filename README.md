@@ -1,4 +1,4 @@
-# GroundWork Boxer ![Boxer](gwos.png "Boxer")
+# GroundWork Bokzer ![Bokzer](gwos.png "Bokzer")
 
 This project is a fork of cAdvisor v 0.5.0 to provide a trimmed down version of a monitor container. The purpose is to provide a small footprint container to collect stats monitoring statistics for all containers running on the docker engine. The goal is to optimze the data collection and transfer (API based) Managment systems.
 
@@ -7,9 +7,9 @@ This is experimental and the goal is to submit the boxer settings upstream as a 
 * Developer mode (cAdvisor) for monitoring local deployments, rapid development and troubleshooting in DevOps environments
 
 
-## Quick Start: Running Boxer in a Docker Container
+## Quick Start: Running Bokzer in a Docker Container
 
-To quickly tryout Boxer on your machine with Docker (version 1.3 or above), we have a Docker image that includes everything you need to get started. Simply run:
+To quickly tryout Bokzer on your machine with Docker (version 1.3 or above), we have a Docker image that includes everything you need to get started. Simply run:
 
 ```
 sudo docker run \
@@ -19,8 +19,8 @@ sudo docker run \
   --volume=/var/lib/docker/:/var/lib/docker:ro \
   --publish=8081:8080 \
   --detach=true \
-  --name=Boxer \
-  gwos/boxer:latest
+  --name=Bokzer \
+  gwos/bokzer:canary
   ```
 
  Please note that the container will run on port 8081 and therefore the UI is available through: http://localhost:8081
@@ -30,7 +30,7 @@ sudo docker run \
  Example to get all docker instances:
  http://localhost:8081/api/v1.2/docker
 
-# Notes from the original project from which Boxer was forked
+# Notes from the original project from which Bokzer was forked
 
 # cAdvisor
 
@@ -177,7 +177,7 @@ The actual object is the marshalled JSON of the `MachineInfo` struct found in [i
 There is an example Go client under [client/](client/) - you can use it on your own Go project by including it like this:
 
 ```go
-import "github.com/gwos/boxer/client"
+import "github.com/gwos/bokzer/client"
 client, err = client.NewClient("http://192.168.59.103:8080/")
 mInfo, err := client.MachineInfo()
 ```

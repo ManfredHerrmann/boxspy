@@ -1,8 +1,8 @@
 FROM progrium/busybox
-MAINTAINER dengnan@google.com vmarmol@google.com vishnuk@google.com
+MAINTAINER rruttimann@gwos.com
 
-# Grab boxer from the staging directory.
-ADD boxer /usr/bin/boxer
+# Grab bokzer from the staging directory.
+ADD bokzer /usr/bin/bokzer
 
 EXPOSE 8080
-ENTRYPOINT ["/usr/bin/boxer"]
+ENTRYPOINT ["/usr/bin/bokzer"]

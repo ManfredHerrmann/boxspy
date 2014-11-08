@@ -27,8 +27,8 @@ import (
 	"time"
 
 	"github.com/golang/glog"
-	"github.com/gwos/boxer/info"
-	"github.com/gwos/boxer/manager"
+	"github.com/gwos/bokzer/info"
+	"github.com/gwos/bokzer/manager"
 )
 
 const ContainersPage = "/containers/"

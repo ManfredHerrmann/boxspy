@@ -16,7 +16,7 @@
 // defines an interface for container operation handlers.
 package container
 
-import "github.com/gwos/boxer/info"
+import "github.com/gwos/bokzer/info"
 
 // ListType describes whether listing should be just for a
 // specific container or performed recursively.

@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/gwos/boxer/utils/fs"
+	"github.com/gwos/bokzer/utils/fs"
 )
 
 type SchedulerLoadReader interface {

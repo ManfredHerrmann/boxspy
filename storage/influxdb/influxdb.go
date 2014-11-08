@@ -19,7 +19,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/gwos/boxer/info"
+	"github.com/gwos/bokzer/info"
 	influxdb "github.com/influxdb/influxdb/client"
 )
 

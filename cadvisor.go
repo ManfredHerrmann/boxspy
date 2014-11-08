@@ -25,14 +25,14 @@ import (
 	"syscall"
 
 	"github.com/golang/glog"
-	"github.com/gwos/boxer/api"
-	"github.com/gwos/boxer/container/docker"
-	"github.com/gwos/boxer/container/raw"
-	"github.com/gwos/boxer/healthz"
-	"github.com/gwos/boxer/info"
-	"github.com/gwos/boxer/manager"
-	"github.com/gwos/boxer/pages"
-	"github.com/gwos/boxer/pages/static"
+	"github.com/gwos/bokzer/api"
+	"github.com/gwos/bokzer/container/docker"
+	"github.com/gwos/bokzer/container/raw"
+	"github.com/gwos/bokzer/healthz"
+	"github.com/gwos/bokzer/info"
+	"github.com/gwos/bokzer/manager"
+	"github.com/gwos/bokzer/pages"
+	"github.com/gwos/bokzer/pages/static"
 )
 
 var argPort = flag.Int("port", 8080, "port to listen")
