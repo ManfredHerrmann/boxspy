@@ -15,7 +15,7 @@
 package container
 
 import (
-	"github.com/gwos/bokzer/info"
+	"github.com/gwos/boxspy/info"
 	"github.com/stretchr/testify/mock"
 )
 

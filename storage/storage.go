@@ -14,7 +14,7 @@
 
 package storage
 
-import "github.com/gwos/bokzer/info"
+import "github.com/gwos/boxspy/info"
 
 type StorageDriver interface {
 	AddStats(ref info.ContainerReference, stats *info.ContainerStats) error

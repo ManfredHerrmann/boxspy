@@ -25,8 +25,8 @@ import (
 	"time"
 
 	"github.com/golang/glog"
-	"github.com/gwos/bokzer/info"
-	"github.com/gwos/bokzer/manager"
+	"github.com/gwos/boxspy/info"
+	"github.com/gwos/boxspy/manager"
 )
 
 const (

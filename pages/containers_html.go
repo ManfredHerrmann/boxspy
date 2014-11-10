@@ -17,7 +17,7 @@ package pages
 const containersHtmlTemplate = `
 <html>
   <head>
-    <title>Bokzer - Monitoring Container {{.ContainerName}}</title>
+    <title>BoxSpy - Monitoring Container {{.ContainerName}}</title>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
 

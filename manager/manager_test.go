@@ -21,10 +21,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gwos/bokzer/container"
-	"github.com/gwos/bokzer/info"
-	itest "github.com/gwos/bokzer/info/test"
-	stest "github.com/gwos/bokzer/storage/test"
+	"github.com/gwos/boxspy/container"
+	"github.com/gwos/boxspy/info"
+	itest "github.com/gwos/boxspy/info/test"
+	stest "github.com/gwos/boxspy/storage/test"
 )
 
 func createManagerAndAddContainers(

@@ -3,6 +3,6 @@
 set -e
 set -x
 
-godep go build -a github.com/gwos/bokzer
+godep go build -a github.com/gwos/boxspy
 
-sudo docker build -t gwos/bokzer:canary .
+sudo docker build -t gwos/boxspy:canary .

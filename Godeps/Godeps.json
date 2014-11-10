@@ -1,5 +1,5 @@
 {
-	"ImportPath": "github.com/gwos/bokzer",
+	"ImportPath": "github.com/gwos/boxspy",
 	"GoVersion": "go1.3",
 	"Packages": [
 		"./..."

@@ -19,7 +19,7 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/gwos/bokzer/info"
+	"github.com/gwos/boxspy/info"
 )
 
 func GenerateRandomStats(numStats, numCores int, duration time.Duration) []*info.ContainerStats {

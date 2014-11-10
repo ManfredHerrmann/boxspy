@@ -20,8 +20,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gwos/bokzer/info"
-	"github.com/gwos/bokzer/storage"
+	"github.com/gwos/boxspy/info"
+	"github.com/gwos/boxspy/storage"
 )
 
 type TestStorageDriver interface {

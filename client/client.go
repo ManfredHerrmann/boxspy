@@ -24,7 +24,7 @@ import (
 	"path"
 	"strings"
 
-	"github.com/gwos/bokzer/info"
+	"github.com/gwos/boxspy/info"
 )
 
 // Client represents the base URL for a cAdvisor client.

@@ -22,9 +22,9 @@ import (
 
 	"github.com/docker/docker/pkg/units"
 	"github.com/golang/glog"
-	"github.com/gwos/bokzer/container"
-	"github.com/gwos/bokzer/info"
-	"github.com/gwos/bokzer/storage"
+	"github.com/gwos/boxspy/container"
+	"github.com/gwos/boxspy/info"
+	"github.com/gwos/boxspy/storage"
 )
 
 // Housekeeping interval.

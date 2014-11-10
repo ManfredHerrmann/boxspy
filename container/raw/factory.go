@@ -19,8 +19,8 @@ import (
 
 	"github.com/docker/libcontainer/cgroups"
 	"github.com/golang/glog"
-	"github.com/gwos/bokzer/container"
-	"github.com/gwos/bokzer/info"
+	"github.com/gwos/boxspy/container"
+	"github.com/gwos/boxspy/info"
 )
 
 type cgroupSubsystems struct {

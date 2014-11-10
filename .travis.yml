@@ -11,6 +11,6 @@ before_script:
  - sudo service influxdb start
 script:
  - export PATH=$PATH:$HOME/gopath/bin
- - godep go test -v -race github.com/gwos/bokzer/...
- - godep go build github.com/gwos/bokzer
- - go vet github.com/gwos/bokzer
+ - godep go test -v -race github.com/gwos/boxspy/...
+ - godep go build github.com/gwos/boxspy
+ - go vet github.com/gwos/boxspy

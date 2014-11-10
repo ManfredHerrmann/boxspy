@@ -25,8 +25,8 @@ import (
 	"github.com/docker/libcontainer/cgroups/systemd"
 	"github.com/fsouza/go-dockerclient"
 	"github.com/golang/glog"
-	"github.com/gwos/bokzer/container"
-	"github.com/gwos/bokzer/info"
+	"github.com/gwos/boxspy/container"
+	"github.com/gwos/boxspy/info"
 )
 
 var ArgDockerEndpoint = flag.String("docker", "unix:///var/run/docker.sock", "docker endpoint")

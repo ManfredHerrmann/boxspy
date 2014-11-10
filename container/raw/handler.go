@@ -28,11 +28,11 @@ import (
 	cgroup_fs "github.com/docker/libcontainer/cgroups/fs"
 	"github.com/docker/libcontainer/network"
 	"github.com/golang/glog"
-	"github.com/gwos/bokzer/container"
-	"github.com/gwos/bokzer/container/libcontainer"
-	"github.com/gwos/bokzer/fs"
-	"github.com/gwos/bokzer/info"
-	"github.com/gwos/bokzer/utils"
+	"github.com/gwos/boxspy/container"
+	"github.com/gwos/boxspy/container/libcontainer"
+	"github.com/gwos/boxspy/fs"
+	"github.com/gwos/boxspy/info"
+	"github.com/gwos/boxspy/utils"
 )
 
 type rawContainerHandler struct {
