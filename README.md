@@ -1,4 +1,6 @@
-# GroundWork BoxSpy ![BoxSpy](gwos.png "BoxSpy")
+![BoxSpy](boxspy-logo.png "BoxSpy")
+
+# GroundWork BoxSpy
 
 This project is a fork of cAdvisor v 0.5.0 to provide a trimmed down version of a monitor container. The purpose is to provide a small footprint container to collect stats monitoring statistics for all containers running on the docker engine. The goal is to optimze the data collection and transfer (API based) Managment systems.
 
