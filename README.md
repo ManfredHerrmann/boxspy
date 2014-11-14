@@ -1,4 +1,4 @@
-![BoxSpy](boxspy-logo.png "BoxSpy")
+![BoxSpy](boxspy-github.jpg "BoxSpy")
 
 # GroundWork BoxSpy
 
